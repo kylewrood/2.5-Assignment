@@ -1,0 +1,24 @@
+button{
+    font-weight:bold;
+    width:100px;
+    height:80px;
+    margin:10px;
+}
+
+tr, th{
+    margin:20px;
+}
+
+td{
+    text-align:center;
+    
+    
+}
+
+
+
+
+#divtb{
+    display: inline;
+   
+}

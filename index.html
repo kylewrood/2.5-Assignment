@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.5 JS-DOM</title>
+    <link rel="stylesheet"  href="./css/style.css">
+</head>
+<body>
+<h1 style=text-align:center;>2.5 JS-DOM Assignment</h1>
+
+<br>
+<br>
+<br>
+
+<div>
+
+    <p>
+        Create the following elements:
+    </p>
+    <ul>
+        <li>
+            two number input fields
+        </li>
+        <li>
+            4 buttons corresponding to the 4 basic arithmetic operations within a paragraph with span for result
+            <ul>
+                <li>Addition</li>
+                <li>Subtraction</li>
+                <li>Multiplication</li>
+                <li>Division</li>
+            </ul>
+        </li>
+        <li>
+            <p>Use the necessary query selectors and attributes to perform the necessary operation between the two numbers when a corresponding button is pressed.</p>
+        </li>
+    </ul>
+</div>
+<br>
+<br>
+<br>
+<h2>Enter any number to calulate below</h2>
+<div>
+        <label for="numb1">Enter a Number</label>
+        <input type="text" id="numb1" onfocus="this.value=''"">
+
+        <label for="numb2">Enter a Number</label>
+        <input type="text" id="numb2" onfocus="this.value=''"">
+</div>
+<div id="divtb">
+    <table id="divtb">   
+        <tr>
+            <th><button onclick = calAdd()>+</button></th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <th><button onclick=calSub()>-</button></th>
+            <th><button onclick=calMulti()>x</button></th>
+            <th><button onclick=calDive()>÷</button></th>
+        </tr>
+        
+        <tr>
+            <td id="plus"></td>
+            <td id="sub"></td>
+            <td id="multi"></td>
+            <td id="dive"></td>
+        </tr>
+    </table>
+</div>
+
+
+
+    
+    
+</body>
+
+<script src="./JS/index.js"></script>
+</html>
